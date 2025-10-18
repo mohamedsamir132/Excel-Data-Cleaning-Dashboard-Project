@@ -1,0 +1,41 @@
+☕ Cafe Sales Performance: From Dirty Data to Executive Dashboard
+✨ Project Summary
+This project showcases an end-to-end data analysis workflow—transforming 10,000 rows of messy retail data into clear, strategic business recommendations. I demonstrated proficiency in data cleaning, feature engineering, and executive dashboard design using Excel and Power Query.
+
+Metric	Value	Impact
+Data Integrity Score	85.8%	Successfully cleaned/imputed 1,418 corrupt transaction rows.
+Total Revenue	$76,714	Baseline for monthly trend and profitability analysis.
+Top Value Driver	Salad ($16,545)	Highest-revenue item; target for profit promotions.
+Top Volume Driver	Juice (1,121 units)	Item that drives the most customer traffic.
+
+📊 Key Business Insights & Strategy
+The analysis moved beyond simple reporting to deliver actionable strategies for profit optimization and operational stability.
+
+Focus Area	Key Finding	Actionable Recommendation
+Profit & Promotion	Salad is the highest-value product; Juice drives the highest traffic volume.	Focus promotions on Salad to increase profitability. Bundle Juice with lower-volume items (e.g., Coffee) to lift the average order value (AOV).
+Operational Stability	Traffic severely dips mid-week (Tuesday/Wednesday) but peaks on weekends.	Implement mid-week loyalty programs to flatten the sales curve, improve staffing utilization, and secure predictable revenue.
+Growth Channel	Takeaway slightly outperforms In-store across most items.	Prioritize investment in the Takeaway channel (mobile app experience, faster fulfillment) as it is the primary source of revenue growth.
+
+🛠️ Technical Skills Demonstrated
+This project validates proficiency across the entire data lifecycle:
+
+A. Data Hygiene & Modeling
+Power Query: Used if/then/else logic for data imputation, inferring missing Price and Total values.
+
+Data Integrity: Enforced critical rules by filtering unrecoverable data (missing Item context) and standardizing ERROR terms to null.
+
+Feature Engineering: Built advanced analytical fields, including Order Size Flag (Large/Small) and Weekend Flag (Weekday/Weekend), for deeper segmentation.
+
+B. Visualization & Presentation
+Executive Dashboard: Designed an interactive, minimalist dashboard using custom RGB coloring and a dark-mode header for a professional aesthetic.
+
+Interactivity: Implemented and linked Slicers (Payment Method, Weekend Flag) to all PivotTables and KPIs for dynamic reporting.
+
+Pivot Table Mastery: Generated complex reports on Item, Location, and Day of Week analysis.
+
+📂 Repository Contents
+Cafe_Sales_Analysis_Project.xlsx: The final workbook with Raw Data, Clean Data, and the interactive Dashboard.
+
+dirty_cafe_sales.csv: The original data source (demonstrates the 'before' state).
+
+Cleaning_Steps.pdf: Detailed technical documentation of all Power Query steps and Excel formulas.
